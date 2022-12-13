@@ -10,7 +10,7 @@ int main(void)
 {
 	int num1 = 48;
 	int num2 = 48;
-	
+
 	while (num1 < 58)
 	{
 		num2 = 48;
@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar(num1);
 				putchar(num2);
-				if ( num1 == 56 && num2 == 57)
+				if (num1 == 56 && num2 == 57)
 					break;
 				putchar(',');
 				putchar(' ');
