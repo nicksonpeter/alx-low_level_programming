@@ -4,7 +4,8 @@
 
 /**
  * main - The positive and negative
- *
+ * positive_or_negative - testing to if number is
+ * positive or negative
  * Return: Always 0 (Success)
  */
 int positive_or_negative(void)
@@ -20,5 +21,4 @@ int positive_or_negative(void)
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-	return (0);
 }
