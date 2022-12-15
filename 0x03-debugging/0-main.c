@@ -2,7 +2,6 @@
 
 /**
  * main - Debugging
- * 
  * Return: value
  */
 int main(void)
