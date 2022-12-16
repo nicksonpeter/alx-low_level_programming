@@ -3,20 +3,16 @@
 /**
  * print_line - drawing straight line
  * @n: input value
+ * @var: input value
  * Return: Success value
  */
 void print_line(int n)
 {
 	int var;
 
-	while (var )
-	if (n > 0)
+	for (var = 0; var < n; var++)
 	{
 		_putchar('_');
 	}
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-
+	_putchar('\n');
 }
