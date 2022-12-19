@@ -3,7 +3,7 @@
 /**
  * _strlen - returning the length of the screen
  * @s: the input character
- * return: length
+ * Return: length of @s
  */
 
 int _strlen(char *s)
