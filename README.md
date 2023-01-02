@@ -1,1 +1,1 @@
-My first readme in C
+Even more pointer
