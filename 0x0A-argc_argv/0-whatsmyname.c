@@ -5,6 +5,7 @@
  * main - printing its name
  * @argc: length of argv array
  * @argv: array containing arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
