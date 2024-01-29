@@ -1,19 +1,35 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_square - printing hash signs
- * @size: Input value
- * Return: value
+ * print_square - function that prints 10 times the numbers, from 0 to 14
+ * @size: parameter
+ * Return: returns nothing
  */
+
 void print_square(int size)
 {
-	int var;
-	int val;
+	int i = 0, j;
 
-	for (var = 0; var < size; var++)
+	if (size <= 0)
 	{
-
-		_putchar('#');
+		_putchar('\n');
 	}
-	_putchar('\n');
+	else
+	{
+		while (i < size)
+		{
+			j = 0;
+
+			while (j < size)
+			{
+				_putchar('#');
+
+				j++;
+			}
+			_putchar('\n');
+
+			i++;
+		}
+	}
 }
